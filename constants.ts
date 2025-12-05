@@ -3,9 +3,8 @@
 // In a real scenario, you would put logo.png and banner.png in the public folder.
 
 export const ASSETS = {
-  // Assuming the user will place the images from the prompt into the public folder
-  // as 'logo.png' and 'banner.png'. Using picsum as fallback for code generation.
-  LOGO: "https://picsum.photos/id/102/300/300", 
+  // Using the uploaded character image for the Logo as well
+  LOGO: "https://pbs.twimg.com/media/G7bl9zAWMAAFWEG?format=jpg&name=medium", 
   HERO_CHAR: "https://pbs.twimg.com/media/G7bl9zAWMAAFWEG?format=jpg&name=medium",
   BANNER: "https://picsum.photos/id/237/1200/400", 
   JINGLE_BELLS_MP3: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Jingle_Bells_-_Kevin_MacLeod.ogg" // Royalty free version
