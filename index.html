@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jingle Balls ($JBALLS) | Solana Memecoin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'christmas': ['"Mountains of Christmas"', 'cursive'],
+              'sans': ['"Rubik"', 'sans-serif'],
+            },
+            colors: {
+              'christmas-red': '#D42426',
+              'christmas-green': '#165B33',
+              'snow-white': '#F8F9FA',
+              'gold': '#FFD700'
+            },
+            animation: {
+              'bounce-slow': 'bounce 3s infinite',
+              'spin-slow': 'spin 12s linear infinite',
+              'float-x': 'float-x 4s ease-in-out infinite',
+            },
+            keyframes: {
+              'float-x': {
+                '0%, 100%': { transform: 'translateX(-15px) rotate(-3deg)' },
+                '50%': { transform: 'translateX(15px) rotate(3deg)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #D42426;
+        color: white;
+        overflow-x: hidden;
+      }
+      .snow-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: 50;
+      }
+      .snowflake {
+        position: absolute;
+        top: -10px;
+        background: white;
+        border-radius: 50%;
+        opacity: 0.8;
+        animation: fall linear infinite;
+      }
+      @keyframes fall {
+        to {
+          transform: translateY(105vh);
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
