@@ -7,7 +7,6 @@ import Memes from './components/Memes';
 import Chart from './components/Chart';
 import Footer from './components/Footer';
 import Snowfall from './components/Snowfall';
-import MusicPlayer from './components/MusicPlayer';
 
 const App: React.FC = () => {
   return (
@@ -22,7 +21,6 @@ const App: React.FC = () => {
         <Chart />
       </main>
       <Footer />
-      <MusicPlayer />
     </div>
   );
 };

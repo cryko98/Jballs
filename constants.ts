@@ -7,7 +7,8 @@ export const ASSETS = {
   LOGO: "https://pbs.twimg.com/media/G7bl9zAWMAAFWEG?format=jpg&name=medium", 
   HERO_CHAR: "https://pbs.twimg.com/media/G7bl9zAWMAAFWEG?format=jpg&name=medium",
   BANNER: "https://picsum.photos/id/237/1200/400", 
-  JINGLE_BELLS_MP3: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Jingle_Bells_-_Kevin_MacLeod.ogg" // Royalty free version
+  JINGLE_BELLS_MP3: "https://dn720303.ca.archive.org/0/items/JingleBells_740/JingleBells.mp3",
+  JINGLE_BELLS_OGG: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Jingle_Bells_by_Kevin_MacLeod.ogg",
 };
 
 export const CONTRACT_ADDRESS = "xxxxxxxxxxxxxxxxxxxxxxxxx";
